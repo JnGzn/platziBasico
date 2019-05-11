@@ -1,6 +1,11 @@
 
-var y = GenerarNumero(10,30);
-document.write(y);
+var y;
+for (var i = 0; i < 9; i++)
+ {
+	y= GenerarNumero(10,30);
+	document.write(y+",");
+}
+
 
 function GenerarNumero(min, max) 
 {
